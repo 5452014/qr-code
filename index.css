@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(/public/font/Outfit-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Outfit";
+    src: url(/public/font/Outfit-Bold.ttf);
+    font-weight: bold;
+  }
+  
+  :root {
+    --color-slate-300: #d5e1ef;
+    --color-slate-500: #68778d;
+    --color-slate-900: #1f314f;
+    --color-white: #ffffff;
+  
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+  }
+  
+  body {
+    background-color: var(--color-slate-300);
+    margin: 0;
+    padding: 0;
+  }  
+.container{
+
+}
